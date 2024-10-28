@@ -5,18 +5,18 @@ Welcome to the Interactive Stopwatch Web Application! This project is a user-fri
 
 # Features
 
-Start, Pause, and Reset: Control the stopwatch with intuitive buttons.
+* Start, Pause, and Reset: Control the stopwatch with intuitive buttons.
 
-Lap Times: Record and display lap times.
+* Lap Times: Record and display lap times.
 
-Responsive Design: Optimized for all devices including desktops, tablets, and mobile phones.
+* Responsive Design: Optimized for all devices including desktops, tablets, and mobile phones.
 
-Stylish UI: Sleek black-to-blue gradient background with readable text and controls.
+* Stylish UI: Sleek black-to-blue gradient background with readable text and controls.
 
 # Technologies Used
 
-HTML
+* HTML
 
-CSS
+* CSS
 
-JavaScript
+* JavaScript
