@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #0d0d0d, #0b3d91); /* Black to blue gradient */
+    color: #ffffff; /* Text color for contrast */
+}
+
+.stopwatch {
+    background: #1e1e1e; /* Slightly lighter black for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#time-labels {
+    font-size: 1em;
+    margin: 0px 97px;
+}
+
+#time-labels span {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    color: #b0b0b0; /* Lighter color for labels */
+}
+
+#display {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff; /* Ensures the time is readable */
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#start {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#pause {
+    background-color: #f39c12;
+    color: white;
+}
+
+#reset {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#lap {
+    background-color: #3498db;
+    color: white;
+}
+
+.controls button:hover {
+    filter: brightness(85%);
+}
+
+#laps {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#laps li {
+    background: #282828; /* Slightly lighter black for contrast */
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    color: #ffffff; /* Ensures the laps are readable */
+}
+
